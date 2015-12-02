@@ -721,3 +721,6 @@ button 元素的默认 type 为 submit，如果被置于 form 元素中，点击
 </tr>
 </table>
 ```
+
+
+参考ecomfe编码规范：[ecomfe/spec](https://github.com/ecomfe/spec)
