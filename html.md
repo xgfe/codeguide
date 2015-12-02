@@ -1,47 +1,26 @@
 # HTML编码规范
 
-[1 前言](#user-content-1-前言)
-
-[2 代码风格](#user-content-2-代码风格)
-
-　　[2.1 缩进与换行](#user-content-21-缩进与换行)
-
-　　[2.2 命名](#user-content-22-命名)
-
-　　[2.3 标签](#user-content-23-标签)
-
-　　[2.4 属性](#user-content-24-属性)
-
-[3 通用](#user-content-3-通用)
-
-　　[3.1 DOCTYPE](#user-content-31-doctype)
-
-　　[3.2 编码](#user-content-32-编码)
-
-　　[3.3 CSS和JavaScript引入](#user-content-33-css和javascript引入)
-
-[4 head](#4-head)
-
-　　[4.1 title](#user-content-41-title)
-
-　　[4.2 favicon](#user-content-42-favicon)
-
-　　[4.3 viewport](#user-content-43-viewport)
-
-　　[4.4 SEO](#user-content-44-seo)
-
-[5 图片](#user-content-5-图片)
-
-[6 表单](#user-content-6-表单)
-
-　　[6.1 控件标题](#user-content-61-控件标题)
-
-　　[6.2 按钮](#user-content-62-按钮)
-
-　　[6.3 可访问性 (A11Y)](#user-content-63-可访问性-a11y)
-
-[7 多媒体](#user-content-7-多媒体)
-
+[1 前言](#user-content-1-前言)  
+[2 代码风格](#user-content-2-代码风格)  
+　　[2.1 缩进与换行](#user-content-21-缩进与换行)  
+　　[2.2 命名](#user-content-22-命名)  
+　　[2.3 标签](#user-content-23-标签)  
+　　[2.4 属性](#user-content-24-属性)  
+[3 通用](#user-content-3-通用)  
+　　[3.1 DOCTYPE](#user-content-31-doctype)  
+　　[3.2 编码](#user-content-32-编码)  
+　　[3.3 CSS和JavaScript引入](#user-content-33-css和javascript引入)  
+[4 head](#4-head)  
+　　[4.1 title](#user-content-41-title)  
+　　[4.2 favicon](#user-content-42-favicon)  
+　　[4.3 viewport](#user-content-43-viewport)  
+　　[4.4 SEO](#user-content-44-seo)  
+[5 图片](#user-content-5-图片)  
+[6 表单](#user-content-6-表单)  
+　　[6.1 控件标题](#user-content-61-控件标题)  
+　　[6.2 按钮](#user-content-62-按钮)  
+　　[6.3 可访问性 (A11Y)](#user-content-63-可访问性-a11y)  
+[7 多媒体](#user-content-7-多媒体)  
 [8 模板中的 HTML](#user-content-8-模板中的-html)
 
 ## 1 前言
