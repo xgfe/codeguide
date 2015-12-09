@@ -93,11 +93,11 @@ HTML作为描述网页结构的超文本标记语言，是前端的骨骼部分�
 <span class="red"></span>
 ```
 
-#### [强制] 禁止为了 `hook 脚本`，创建无样式信息的 `class`。
+#### [建议] 尽量少为了 `hook 脚本`，创建无样式信息的 `class`，及时有命名需以 `j-` 打头。
 
 解释：
 
-不允许 class 只用于让 JavaScript 选择某些元素，class 应该具有明确的语义和样式。否则容易导致 css class 泛滥。
+少用 class 只用于让 JavaScript 选择某些元素，class 应该具有明确的语义和样式。否则容易导致 css class 泛滥。
 
 使用 id、属性选择作为 hook 是更好的方式。
 
@@ -722,5 +722,8 @@ button 元素的默认 type 为 submit，如果被置于 form 元素中，点击
 </table>
 ```
 
+***
 
-参考ecomfe编码规范：[ecomfe/spec](https://github.com/ecomfe/spec)
+参考规范：
+	
+* [ecomfe HTML编码规范](https://github.com/ecomfe/spec/blob/master/html-style-guide.md)
