@@ -220,7 +220,7 @@ article[character="juliet"] {
 
 ### 2.8 import
 
-#### 不要使用 @import。
+#### [强制] 不要使用 @import。
 
 解释：
 
