@@ -1,6 +1,6 @@
 # ECMAScript 6 编码规范
-  <a name="table-of-contents"></a>
-  ## 目录
+<a name="table-of-contents"></a> 
+## 目录 
 
   1. [Arrow Functions](#arrow-functions)
   1. [Classes](#constructors)
@@ -16,15 +16,14 @@
   1. [Iterators and Generators](#iterators-and-generators) 
   1. [Modules](#modules)
 
+<a name="arrow-functions"></a>
+## 箭头函数 
 
-  <a name="arrow-functions"></a>
-  ## 箭头函数
+    - [8.1](#8.1) <a name='8.1'></a> 当你必须使用函数表达式（或传递一个匿名函数）时，使用箭头函数符号。 
 
-    - [8.1](#8.1) <a name='8.1'></a> 当你必须使用函数表达式（或传递一个匿名函数）时，使用箭头函数符号。
+    > 为什么?因为箭头函数创造了新的一个 `this` 执行环境（译注：参考 [Arrow functions - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions) 和 [ES6 arrow functions, syntax and lexical scoping](http://toddmotto.com/es6-arrow-functions-syntaxes-and-lexical-scoping/)），通常情况下都能满足你的需求，而且这样的写法更为简洁。 
 
-    > 为什么?因为箭头函数创造了新的一个 `this` 执行环境（译注：参考 [Arrow functions - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions) 和 [ES6 arrow functions, syntax and lexical scoping](http://toddmotto.com/es6-arrow-functions-syntaxes-and-lexical-scoping/)），通常情况下都能满足你的需求，而且这样的写法更为简洁。
-
-    > 为什么不？如果你有一个相当复杂的函数，你或许可以把逻辑部分转移到一个函数声明上。
+    > 为什么不？如果你有一个相当复杂的函数，你或许可以把逻辑部分转移到一个函数声明上。 
 
       ```javascript
       // bad
@@ -38,7 +37,7 @@
       });
       ```
 
-    - [8.2](#8.2) <a name='8.2'></a> 如果一个函数适合用一行写出并且只有一个参数，那就把花括号、圆括号和 `return` 都省略掉。如果不是，那就不要省略。
+    - [8.2](#8.2) <a name='8.2'></a> 如果一个函数适合用一行写出并且只有一个参数，那就把花括号、圆括号和 `return` 都省略掉。如果不是，那就不要省略。 
 
     > 为什么？语法糖。在链式调用中可读性很高。
 
