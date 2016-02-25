@@ -13,7 +13,7 @@
   1. [Rest](#es6-rest)
   1. [Array Spreads](#es6-array-spreads)
   1. [Let and Const](#references)
-  1. [Iterators and Generators](#iterators-and-generators)
+  1. [Iterators and Generators](#iterators-and-generators) 
   1. [Modules](#modules)
 
 

@@ -5,7 +5,7 @@
 
 * [HTML编码规范](https://github.com/xgfe/codeguide/blob/master/html.md)
 * [CSS编码规范](https://github.com/xgfe/codeguide/blob/master/css.md)
-
+* [ECMAScript 6 编码规范](https://github.com/xgfe/codeguide/blob/master/es6.md)
 
 ### 工具支持
 
