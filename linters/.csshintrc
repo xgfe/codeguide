@@ -1,0 +1,121 @@
+{
+    "a-line-of-decl": {
+        "level": 1
+    },
+    "after-colon": {
+        "level": 1,
+    },
+    "attribute-selector": {
+        "level": 1
+    },
+    "before-colon": {
+        "level": 1
+    },
+    "color-abbr": {
+        "level": 1
+    },
+    "content-double-quotation": {
+        "level": 1
+    },
+    "decl-comma": {
+        "level": 1,
+        followedComma: " ",
+    },
+    "decl-end-of-semicolon": {
+        "level": 1,
+    },
+    "disallow-import": {
+        "level": 1,
+    },
+    "disallow-named-color": {
+        "level": 1
+    },
+    "disallow-quotes-in-url": {
+        "level": 1
+    },
+    "disallow-use-expression": {
+        "level": 1,
+    },
+    "font-weight-number": {
+        "level": 1
+    },
+    "hex-color": {
+        "level": 1
+    },
+    "horizontal-vertical-position": {
+        "level": 1
+    },
+    "important": {
+        "level": 1
+    },
+    "line-of-length": {
+        "level": 1,
+        "maximumLength": 80,
+    },
+    "media-query-require-new-line": {
+        "level": 1
+    },
+    "min-font-size": {
+        "level": 1,
+        "minimumSize": 12,
+    },
+    "more-selector": {
+        "level": 1
+    },
+    "omit-unit": {
+        "level": 1
+    },
+    "omit-zero": {
+        "level": 1
+    },
+    "require-transition-property": {
+        "level": 1
+    },
+    "selector-between-onespace": {
+        "level": 1,
+        "contains": ' ',
+    },
+    "selector-both-spaces": {
+        "level": 1,
+        "afterSelector": ' ',
+        "beforeSelector": ' ',
+    },
+    "text-indent": {
+        "level": 1,
+        "textIndent": "    ",
+    },
+    "unifying-font-family-case-sensitive": {
+        "level": 1
+    },
+    "vendor-prefixes-sort": {
+        "level": 1
+    },
+    "without-bom": {
+        "level": 2
+    },
+    "disallow-overqualified-elements": {
+        "level": 2
+    },
+    "not-use-id": {
+        "level": 2
+    },
+    "selector-nested": {
+        "level": 2,
+        "hierarchy": 3,
+    },
+    "not-use-asterisk": {
+        "level": 2
+    },
+    "not-use-important": {
+        "level": 2
+    },
+    "color-case": {
+        "level": 2
+    },
+    "normal-fontStyle": {
+        "level": 2
+    },
+    "line-height": {
+        "level": 2
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "tag-self-close": true,
+    "meta-charset": true,
+    "src-not-empty": true,
+    "id-class-value": "dash",
+    "button-type-require": true,
+    "link-rel-require": true,
+    "style-disabled": true,
+    "img-size": true
+}
