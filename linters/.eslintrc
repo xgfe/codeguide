@@ -19,7 +19,7 @@
     "space-before-keywords":2,
     "key-spacing":2,
     "no-spaced-func":2,
-    "space-before-function-paren":2,
+    "space-before-function-paren":[2,{ "anonymous": "always", "named": "never" }],
     "semi-spacing":[2,{"before": false, "after": true}],
     "comma-spacing": [2,{"before": false, "after": true}],
     "space-in-parens":[2,"never"],
