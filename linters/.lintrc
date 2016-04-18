@@ -3,6 +3,7 @@
         "suffix":["html","htm"],
         "rules":{
             "tag-self-close": true,
+            "doctype-first": false,
             "meta-charset": true,
             "src-not-empty": true,
             "id-class-value": "dash",
