@@ -24,7 +24,7 @@
             "browser":true,
             "node":true
         },
-        "global":{
+        "globals":{
             "$":true,
             "jQUery":true,
             "angular":true
