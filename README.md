@@ -7,6 +7,7 @@
 * [CSS编码规范](https://github.com/xgfe/codeguide/blob/master/css.md)
 * [JavaScript编码规范](https://github.com/xgfe/codeguide/blob/master/javascript.md)
 * [ECMAScript 6 编码规范](https://github.com/xgfe/codeguide/blob/master/es6.md)
+* [Angular 编码规范](https://github.com/xgfe/codeguide/blob/master/eslint-plugin-angular.md)
 
 ### 工具支持
 

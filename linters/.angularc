@@ -1,0 +1,77 @@
+/* 可以被.lintrc中的js部分继承 */
+{
+  "env": {
+    "browser": true
+  },
+  "globals": {
+    "angular": true
+  },
+  "rules": {
+    "angular/component-limit": [
+      1,
+      2
+    ],
+    "angular/controller-as-route": 1,
+    "angular/controller-as-vm": 1,
+    "angular/controller-as": 1,
+    "angular/deferred": 2,
+    "angular/di-unused": 2,
+    "angular/directive-restrict": 1,
+    "angular/empty-controller": 2,
+    "angular/no-inline-template": 2,
+    "angular/no-services": [
+      2,
+      {
+        "directive": [
+          "$http"
+        ],
+        "controller": [
+          "$http",
+          "$resource",
+          "Upload"
+        ]
+      }
+    ],
+    "angular/on-watch": 2,
+    "angular/no-private-call": 2,
+    "angular/no-cookiestore": 2,
+    "angular/no-directive-replace": 2,
+    "angular/no-http-callback": 2,
+    "angular/di-order": [
+      1,
+      true
+    ],
+    "angular/di": [
+      2,
+      "$inject"
+    ],
+    "angular/function-type": [
+      1,
+      "named"
+    ],
+    "angular/module-dependency-order": 1,
+    "angular/one-dependency-per-line": 1,
+    "angular/rest-service": [
+      1,
+      "$http"
+    ],
+    "angular/watchers-execution": 1,
+    "angular/angularelement": 1,
+    "angular/definedundefined": 2,
+    "angular/document-service": 2,
+    "angular/window-service": 2,
+    "angular/foreach": 2,
+    "angular/interval-service": 2,
+    "angular/timeout-service": 2,
+    "angular/json-functions": 2,
+    "angular/log": 2,
+    "angular/no-jquery-angularelement": 2,
+    "angular/typecheck-array": 2,
+    "angular/typecheck-date": 2,
+    "angular/typecheck-function": 2,
+    "angular/typecheck-number": 2,
+    "angular/typecheck-object": 2,
+    "angular/typecheck-string": 2
+  }
+}
+
