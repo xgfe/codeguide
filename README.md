@@ -3,11 +3,15 @@
 
 ***
 
-* [HTML编码规范](https://github.com/xgfe/codeguide/blob/master/html.md)
-* [CSS编码规范](https://github.com/xgfe/codeguide/blob/master/css.md)
-* [JavaScript编码规范](https://github.com/xgfe/codeguide/blob/master/javascript.md)
-* [ECMAScript 6 编码规范](https://github.com/xgfe/codeguide/blob/master/es6.md)
-* [Angular 编码规范](https://github.com/xgfe/codeguide/blob/master/eslint-plugin-angular.md)
+* [HTML编码规范](./code-style/html.md)
+* [CSS编码规范](./code-style/css.md)
+* [JavaScript编码规范](./code-style/javascript.md)
+* [ECMAScript 6 编码规范](./code-style/es6.md)
+* [Angular 编码规范](./code-style/eslint-plugin-angular.md)
+
+***
+
+* [项目review最佳实践](./best-practice/admin-project.md)
 
 ### 工具支持
 
